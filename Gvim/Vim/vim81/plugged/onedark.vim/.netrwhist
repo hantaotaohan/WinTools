@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='C:\Users\hanta\Desktop\Dotfiles\install'
+let g:netrw_dirhist_5='D:/'
+let g:netrw_dirhist_4='E:/Vim'
+let g:netrw_dirhist_3='E:/'
+let g:netrw_dirhist_2='E:/Vim'
+let g:netrw_dirhist_1='E:/'

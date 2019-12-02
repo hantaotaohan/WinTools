@@ -1,0 +1,415 @@
+[2018-10-24 10:14:31] ShadowsocksR started on port 1080
+[2018-10-24 10:14:33] [Info] Connect az764295.vo.msecnd.net:443
+[2018-10-24 10:14:34] [Info] Connect az764295.vo.msecnd.net:443
+[2018-10-24 10:14:34] [Info] Connect az764295.vo.msecnd.net:443
+[2018-10-24 10:14:34] [Info] Disconnect az764295.vo.msecnd.net:443
+[2018-10-24 10:14:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-24 10:14:41] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:42] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:42] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:42] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-24 10:14:42] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:42] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:42] [Info] Connect raw.githubusercontent.com:443
+[2018-10-24 10:14:43] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-24 10:14:43] [Error] connect to update server error
+[2018-10-24 10:15:02] [Error] System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 Shadowsocks.Model.Server.ServerFromSS(String ssURL, String force_group)
+   在 Shadowsocks.Controller.ShadowsocksController.AddServerBySSURL(String ssURL, String force_group, Boolean toLast)
+[2018-10-24 10:15:10] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:10] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:10] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:10] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:15:11] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:11] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:12] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:12] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:15:17] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:17] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:17] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:17] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:15:22] [Error] System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 Shadowsocks.Model.Server.ServerFromSS(String ssURL, String force_group)
+   在 Shadowsocks.Controller.ShadowsocksController.AddServerBySSURL(String ssURL, String force_group, Boolean toLast)
+[2018-10-24 10:15:31] [Error] System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 Shadowsocks.Model.Server.ServerFromSS(String ssURL, String force_group)
+   在 Shadowsocks.Controller.ShadowsocksController.AddServerBySSURL(String ssURL, String force_group, Boolean toLast)
+[2018-10-24 10:15:40] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:40] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:40] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:41] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:15:42] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:42] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:42] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:15:42] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:15:44] [Info] Connect m.addthis.com:443
+[2018-10-24 10:15:44] [Info] Direct connect hm.baidu.com:443
+[2018-10-24 10:15:44] [Info] Direct connect hm.baidu.com:443
+[2018-10-24 10:15:44] [Info] Direct connect nsclick.baidu.com:80
+[2018-10-24 10:15:44] [Info] Direct connect hm.baidu.com:443
+[2018-10-24 10:15:44] [Info] Direct connect hm.baidu.com:443
+[2018-10-24 10:15:44] [Info] Direct connect hm.baidu.com:443
+[2018-10-24 10:15:44] [Info] Direct connect hm.baidu.com:443
+[2018-10-24 10:15:44] [Info] Connect m.addthis.com:443
+[2018-10-24 10:15:44] [Info] Connect m.addthis.com:443
+[2018-10-24 10:15:45] [Info] Disconnect m.addthis.com:443
+[2018-10-24 10:15:48] [Info] Direct connect clientservices.googleapis.com:443
+[2018-10-24 10:15:48] [Info] Connect mtalk.google.com:5228
+[2018-10-24 10:15:48] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:15:48] [Info] Connect android.clients.google.com:443
+[2018-10-24 10:15:48] [Info] Connect mtalk.google.com:5228
+[2018-10-24 10:15:48] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:15:48] [Info] Connect android.clients.google.com:443
+[2018-10-24 10:15:48] [Info] Connect android.clients.google.com:443
+[2018-10-24 10:15:48] [Info] Connect mtalk.google.com:5228
+[2018-10-24 10:15:48] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:15:48] [Info] Connect android.clients.google.com:443
+[2018-10-24 10:15:52] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:15:52] [Info] Connect android.clients.google.com:443
+[2018-10-24 10:15:56] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:15:58] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:01] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:01] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:01] [Info] Disconnect mtalk.google.com:5228
+[2018-10-24 10:16:03] [Info] Direct connect www.google-analytics.com:443
+[2018-10-24 10:16:06] [Info] Direct connect www.google-analytics.com:443
+[2018-10-24 10:16:09] [Debug] DNS query fail: ssl.google-analytics.com
+[2018-10-24 10:16:09] [Info] Connect ssl.google-analytics.com:443
+[2018-10-24 10:16:10] [Debug] DNS query fail: app.yinxiang.com
+[2018-10-24 10:16:10] [Info] Connect app.yinxiang.com:443
+[2018-10-24 10:16:11] [Debug] DNS query fail: ipnrpuoxsbm
+[2018-10-24 10:16:11] [Info] Connect ipnrpuoxsbm:80
+[2018-10-24 10:16:11] [Debug] DNS query fail: vsouobrmdifgvkg
+[2018-10-24 10:16:11] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:11] [Info] Connect vsouobrmdifgvkg:80
+[2018-10-24 10:16:12] [Debug] DNS query fail: hhjajrtbrijw
+[2018-10-24 10:16:12] [Info] Connect hhjajrtbrijw:80
+[2018-10-24 10:16:13] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:13] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:13] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:13] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:14] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:14] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:15] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:15] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:16] [Debug] DNS query fail: ssl.gstatic.com
+[2018-10-24 10:16:16] [Info] Connect ssl.gstatic.com:443
+[2018-10-24 10:16:16] [Debug] DNS query fail: ssl.gstatic.com
+[2018-10-24 10:16:16] [Info] Connect ssl.gstatic.com:443
+[2018-10-24 10:16:17] [Debug] DNS query fail: mail.google.com
+[2018-10-24 10:16:17] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:18] [Debug] DNS query fail: mail.google.com
+[2018-10-24 10:16:18] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:19] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:19] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:20] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:20] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Disconnect android.clients.google.com:443
+[2018-10-24 10:16:21] [Debug] DNS query fail: suggestion.baidu.com
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:21] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:21] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:21] [Info] Connect blacklist.tampermonkey.net:443
+[2018-10-24 10:16:21] [Info] Connect android.clients.google.com:443
+[2018-10-24 10:16:21] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:21] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:21] [Info] Connect ssl.google-analytics.com:443
+[2018-10-24 10:16:21] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:21] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:21] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:21] [Info] Connect vsouobrmdifgvkg:80
+[2018-10-24 10:16:21] [Info] Connect ipnrpuoxsbm:80
+[2018-10-24 10:16:21] [Info] Connect hhjajrtbrijw:80
+[2018-10-24 10:16:21] [Info] Connect app.yinxiang.com:443
+[2018-10-24 10:16:21] [Info] Connect ssl.gstatic.com:443
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:21] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:21] [Info] Connect ssl.gstatic.com:443
+[2018-10-24 10:16:21] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:21] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:21] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:21] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:21] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:21] [Info] Connect blacklist.tampermonkey.net:443
+[2018-10-24 10:16:22] [Info] Disconnect android.clients.google.com:443
+[2018-10-24 10:16:22] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Connect ssl.google-analytics.com:443
+[2018-10-24 10:16:22] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Connect ipnrpuoxsbm:80
+[2018-10-24 10:16:22] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:22] [Info] Connect ssl.gstatic.com:443
+[2018-10-24 10:16:22] [Info] Connect vsouobrmdifgvkg:80
+[2018-10-24 10:16:22] [Info] Connect app.yinxiang.com:443
+[2018-10-24 10:16:22] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect hhjajrtbrijw:80
+[2018-10-24 10:16:22] [Info] Connect ssl.gstatic.com:443
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect blacklist.tampermonkey.net:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:22] [Info] Connect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Disconnect ssl.google-analytics.com:443
+[2018-10-24 10:16:22] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect ipnrpuoxsbm:80
+[2018-10-24 10:16:22] [Info] Disconnect accounts.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect vsouobrmdifgvkg:80
+[2018-10-24 10:16:22] [Info] Disconnect ssl.gstatic.com:443
+[2018-10-24 10:16:22] [Info] Disconnect app.yinxiang.com:443
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect ssl.gstatic.com:443
+[2018-10-24 10:16:22] [Info] Disconnect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect blacklist.tampermonkey.net:443
+[2018-10-24 10:16:22] [Info] Disconnect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect hhjajrtbrijw:80
+[2018-10-24 10:16:22] [Info] Disconnect accounts.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Disconnect suggestion.baidu.com:80
+[2018-10-24 10:16:22] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:16:22] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Connect mail.google.com:443
+[2018-10-24 10:16:22] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:22] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:23] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:23] [Info] Disconnect mail.google.com:443
+[2018-10-24 10:16:23] [Info] Disconnect mail.google.com:443
+[2018-10-24 10:16:23] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:23] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:23] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:23] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:23] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:23] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:24] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:24] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:24] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:16:24] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:24] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:24] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:24] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:24] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:24] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:25] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:25] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:25] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Connect accounts.google.com:443
+[2018-10-24 10:16:25] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:25] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Disconnect accounts.google.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:25] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:25] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:26] [Info] Connect www.googleapis.com:443
+[2018-10-24 10:16:26] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:26] [Info] Disconnect www.googleapis.com:443
+[2018-10-24 10:16:26] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:26] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:26] [Info] Connect www.0daydown.com:443
+[2018-10-24 10:16:27] [Info] Disconnect www.0daydown.com:443
+[2018-10-24 10:16:27] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:27] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:27] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:27] [Info] Disconnect clients2.google.com:443
+[2018-10-24 10:16:28] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:28] [Info] Connect clients2.google.com:443
+[2018-10-24 10:16:29] [Info] Connect clients2.google.com:443
+[2018-10-29 09:19:29] ShadowsocksR started on port 1080
+[2018-10-29 09:19:30] [Info] Connect clients4.google.com:443
+[2018-10-29 09:19:31] [Info] Connect clients4.google.com:443
+[2018-10-29 09:19:31] [Info] Connect clients4.google.com:443
+[2018-10-29 09:19:31] [Info] Disconnect clients4.google.com:443
+[2018-10-29 09:19:33] [Info] Direct connect hm.baidu.com:443
+[2018-10-29 09:19:38] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:39] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:39] [Info] Direct connect mail.bteb.cn:80
+[2018-10-29 09:19:39] [Info] Direct connect mail.bteb.cn:80
+[2018-10-29 09:19:39] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:39] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-29 09:19:39] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:39] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:39] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:40] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:41] [Info] Connect raw.githubusercontent.com:443
+[2018-10-29 09:19:41] [Info] Disconnect raw.githubusercontent.com:443
+[2018-10-29 09:19:41] [Error] connect to update server error
+[2018-10-29 09:19:42] [Info] Direct connect alimei-sub.alibaba.com:80
+[2018-10-29 09:20:06] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-29 09:20:06] [Info] Direct connect suggestion.baidu.com:80
+[2018-10-29 09:20:13] [Info] Direct connect alimei-sub.alibaba.com:80
+[2018-10-29 09:20:14] [Info] Direct connect hm.baidu.com:443
+[2018-10-29 09:20:25] [Error] System.UriFormatException: 无效的 URI: 未能确定 URI 的格式。
+   在 System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   在 Shadowsocks.Controller.UpdateFreeNode.CheckUpdate(Configuration config, String URL, Boolean use_proxy)
+[2018-10-29 09:20:28] [Info] Connect clients4.google.com:443
+[2018-10-29 09:20:28] [Info] Connect clients4.google.com:443
+[2018-10-29 09:20:28] [Info] Connect clients4.google.com:443
+[2018-10-29 09:20:28] [Info] Disconnect clients4.google.com:443
+[2018-10-29 09:20:28] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:29] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:29] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:29] [Info] Disconnect www.0daydown.com:443
+[2018-10-29 09:20:30] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:30] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:30] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:30] [Info] Disconnect www.0daydown.com:443
+[2018-10-29 09:20:39] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:39] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:40] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:20:40] [Info] Disconnect www.0daydown.com:443
+[2018-10-29 09:20:42] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:42] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:42] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:42] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:44] [Info] Direct connect alimei-sub.alibaba.com:80
+[2018-10-29 09:20:50] [Info] Direct connect fonts.googleapis.com:443
+[2018-10-29 09:20:50] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:50] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:50] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Connect clients4.google.com:443
+[2018-10-29 09:20:51] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Connect clients4.google.com:443
+[2018-10-29 09:20:51] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Connect clients4.google.com:443
+[2018-10-29 09:20:51] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:51] [Info] Disconnect clients4.google.com:443
+[2018-10-29 09:20:51] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:52] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Connect io.freess.org:443
+[2018-10-29 09:20:53] [Info] Connect io.freess.org:443
+[2018-10-29 09:20:53] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:53] [Info] Direct connect gstatic.loli.net:443
+[2018-10-29 09:20:54] [Info] Connect io.freess.org:443
+[2018-10-29 09:20:54] [Info] Connect io.freess.org:443
+[2018-10-29 09:20:54] [Info] Connect io.freess.org:443
+[2018-10-29 09:20:54] [Info] Connect io.freess.org:443
+[2018-10-29 09:20:54] [Info] Direct connect www.google-analytics.com:443
+[2018-10-29 09:20:54] [Info] Disconnect io.freess.org:443
+[2018-10-29 09:20:54] [Info] Disconnect io.freess.org:443
+[2018-10-29 09:20:55] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:55] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:56] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:56] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:20:56] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:56] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:56] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:20:57] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:21:02] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:21:02] [Info] Direct connect fonts.googleapis.com:443
+[2018-10-29 09:21:02] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:21:02] [Info] Connect get.freev2ray.com:443
+[2018-10-29 09:21:02] [Info] Disconnect get.freev2ray.com:443
+[2018-10-29 09:21:32] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:21:32] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:21:32] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:21:32] [Info] Disconnect www.0daydown.com:443
+[2018-10-29 09:21:33] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:21:33] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:21:33] [Info] Connect www.0daydown.com:443
+[2018-10-29 09:21:33] [Info] Disconnect www.0daydown.com:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Disconnect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Disconnect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:38] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:39] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:39] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:39] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:39] [Info] Connect get.ss8.fun:443
+[2018-10-29 09:21:39] [Info] Disconnect get.ss8.fun:443
+[2018-10-29 09:21:39] [Info] Disconnect get.ss8.fun:443

@@ -1,0 +1,64 @@
+--------------------------------info[08:16:45]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------ID 为 50516 的进程当前未运行。[08:17:13]--------------------------------
+System.ArgumentException: ID 为 50516 的进程当前未运行。
+   在 System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   在 v2rayN.Handler.V2rayHandler.V2rayStop()
+
+ 
+--------------------------------info[08:43:09]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[08:58:50]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[09:07:42]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[09:27:47]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------在 WebClient 请求期间发生异常。[09:28:49]--------------------------------
+System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.NotSupportedException: 无法识别该 URI 前缀。
+   在 System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+   在 System.Net.WebClient.GetWebRequest(Uri address)
+   在 v2rayN.HttpProxyHandler.WebClientEx.GetWebRequest(Uri address)
+   在 System.Net.WebClient.DownloadStringAsync(Uri address, Object userToken)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 v2rayN.Handler.V2rayUpdateHandle.Ws_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+
+ 
+--------------------------------在 WebClient 请求期间发生异常。[09:28:55]--------------------------------
+System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.NotSupportedException: 无法识别该 URI 前缀。
+   在 System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+   在 System.Net.WebClient.GetWebRequest(Uri address)
+   在 v2rayN.HttpProxyHandler.WebClientEx.GetWebRequest(Uri address)
+   在 System.Net.WebClient.DownloadStringAsync(Uri address, Object userToken)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 v2rayN.Handler.V2rayUpdateHandle.Ws_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+
+ 
+--------------------------------在 WebClient 请求期间发生异常。[09:29:50]--------------------------------
+System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.NotSupportedException: 无法识别该 URI 前缀。
+   在 System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+   在 System.Net.WebClient.GetWebRequest(Uri address)
+   在 v2rayN.HttpProxyHandler.WebClientEx.GetWebRequest(Uri address)
+   在 System.Net.WebClient.DownloadStringAsync(Uri address, Object userToken)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 v2rayN.Handler.V2rayUpdateHandle.Ws_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+
+ 
+--------------------------------info[10:12:50]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[10:38:42]--------------------------------
+System.Exception: v2rayN start up
+
+ 

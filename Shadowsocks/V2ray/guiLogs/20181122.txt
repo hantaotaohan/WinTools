@@ -1,0 +1,26 @@
+--------------------------------info[10:03:06]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。[10:04:47]--------------------------------
+System.ComponentModel.Win32Exception (0x80004005): 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。
+   在 System.Diagnostics.NtProcessManager.GetModuleInfos(Int32 processId, Boolean firstModuleOnly)
+   在 System.Diagnostics.NtProcessManager.GetFirstModuleInfo(Int32 processId)
+   在 System.Diagnostics.Process.get_MainModule()
+   在 v2rayN.HttpProxyHandler.PrivoxyHandler.IsChildProcess(Process process)
+
+ 
+--------------------------------info[11:39:17]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:00:38]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------ID 为 16520 的进程当前未运行。[15:00:27]--------------------------------
+System.ArgumentException: ID 为 16520 的进程当前未运行。
+   在 System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   在 v2rayN.Handler.V2rayHandler.V2rayStop()
+
+ 

@@ -1,0 +1,14 @@
+--------------------------------info[08:38:26]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------ID 为 56500 的进程当前未运行。[08:39:12]--------------------------------
+System.ArgumentException: ID 为 56500 的进程当前未运行。
+   在 System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   在 v2rayN.Handler.V2rayHandler.V2rayStop()
+
+ 
+--------------------------------info[10:07:39]--------------------------------
+System.Exception: v2rayN start up
+
+ 

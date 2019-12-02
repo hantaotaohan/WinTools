@@ -1,0 +1,139 @@
+﻿{
+   "Application": {
+      "SaveHistoryPath": "",
+      "HistoryFilterFavorites": false,
+      "OptionsPageIndex": 1,
+      "HistoryFilter": ""
+   },
+   "Exceptions": {
+      "Disabled": [],
+      "Enabled": [],
+      "DisabledMode": true
+   },
+   "Contents": {
+      "EditBackTranslation": "",
+      "SaveOnExit": false,
+      "EditTranslation": "",
+      "EditSource": ""
+   },
+   "Advanced": {
+      "EnableSlowerListening": false,
+      "OcrApiKey": "",
+      "LayoutIndicator": 0,
+      "EnableGuiTranslation": false,
+      "CopyAction": 0,
+      "SwitchMouseModeOnTrayClick": true,
+      "DefaultBrowserId": "Google Chrome",
+      "EnableMouseModeOnCtrl": false,
+      "RemoveLineBreaks": true,
+      "PreferredDomain": "cn"
+   },
+   "Appearance": {
+      "EnableWindowStyle": true,
+      "PopupAutoSize": true,
+      "ColorFrame": 8023133,
+      "PopupPinWhenDragging": true,
+      "PopupWindowFrameThickness": 3,
+      "Transparency": 217,
+      "PopupIcons": 0,
+      "ColorText": 0,
+      "PopupAutoFocus": false,
+      "ThemeName": "Photoshop Dark",
+      "PopupAutoPos": true,
+      "PopupTimeout": 5,
+      "ColorBack": 15790320
+   },
+   "Internet": {
+      "Timeout": 5000
+   },
+   "HotKeys": {
+      "EnableHotKeys": true,
+      "HotKeyListenText": 33024,
+      "HotKeyTranslateClipboardInMainWindow": 0,
+      "HotKeyReplaceSelection": 0,
+      "HotKeyHistory": 0,
+      "HotKeySwitchMouseMode": 0,
+      "HotKeyTextRecognition": 0,
+      "HotKeyDictionaryClipboard": 0,
+      "HotKeySpeechInput": 0,
+      "HotKeyConvertTextLayout": 0,
+      "HotKeyCopyTranslation": 0,
+      "HotKeyTranslateClipboardInPopupWindow": 0,
+      "HotKeyDictionary": 0,
+      "HotKeyListenTranslation": 0,
+      "HotKeyTranslateClipboard": 0,
+      "HotKeyKeyboard": 0,
+      "HotKeyPopupWindow": 33280,
+      "HotKeyMainWindow": 0
+   },
+   "OfflineDictionaries": [],
+   "Ocr": {
+      "OcrLanguage": 17,
+      "SaveImagePath": ""
+   },
+   "Update": {
+      "CheckForUpdates": false
+   },
+   "DisabledServices": [12, 13, 11, 26, 30, 31, 1, 5],
+   "Proxy": {
+      "Password": "",
+      "Scheme": 0,
+      "Host": "",
+      "ProxyType": 0,
+      "Username": "",
+      "Port": 0
+   },
+   "DictionariesOrder": [10, 19, 20, 14, 17, 18, 22, 24, 25, 26, 29],
+   "DisabledLanguages": [2, 4, 5, 6, 3, 7, 8, 9, 10, 13, 14, 15, 16, 60, 18, 20, 19, 21, 22, 34, 23, 24, 25, 26, 27, 61, 28, 29, 30, 32, 31, 33, 71, 64, 69, 35, 63, 62, 36, 37, 38, 39, 40, 73, 70, 41, 42, 43, 44, 45, 46, 47, 66, 48, 49, 50, 51, 52, 67, 72, 68, 53, 54, 55, 56, 65, 57, 58, 59],
+   "DisabledDictionaries": [19, 20, 14, 17, 18, 22, 24, 25, 29],
+   "Dictionary": {
+      "ShowServicesPane": true,
+      "DictionaryExactSearch": true
+   },
+   "LanguagePairs": [[11, 17], [17, 11]],
+   "General": {
+      "InstantTranslation": true,
+      "LanguageDictionary": 11,
+      "LanguageKeyboard": 17,
+      "AutoCleanupOfTranslation": false,
+      "MouseMode": 1,
+      "WindowPopupPlacement": "2C0000001000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2F0000003101000087020000B4010000",
+      "ClearHistoryOnExit": false,
+      "EnableHistory": false,
+      "WindowKeyboardPlacement": "",
+      "ShowServicesPane": false,
+      "MinimizeToTrayOnMinimize": false,
+      "WindowMainPlacement": "2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9A020000A1010000A80400000F030000",
+      "BackTranslation": false,
+      "WindowHistoryPlacement": "",
+      "WindowOptionsPlacement": "2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6401000095010000EE0300001C030000",
+      "ActiveServices": [28],
+      "UseSmartDetection": false,
+      "ShowMiddlePane": true,
+      "LanguageTo": 1,
+      "WindowDictionaryPlacement": "2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC020000AE0100009604000002030000",
+      "ShowTopPane": true,
+      "MidSplitterPos": 122,
+      "LanguageFrom": 1,
+      "LocaleFoderName": "Chinese (Simplified)",
+      "ReadPhonetically": false,
+      "FontName": "Inziu IosevkaCC Slab SC",
+      "MainWindowStartupAction": 0,
+      "ActiveDictionaryServices": [10],
+      "AlwaysDetectLanguage": false,
+      "MainWindowShowOnLoad": false,
+      "MinimizeToTrayOnClose": true,
+      "ExpandHistoryItems": false,
+      "BackTranslationSplitterPos": 61,
+      "MouseModeOn": false,
+      "SpellChecking": false,
+      "ClearOnDragDrop": true,
+      "TextSize": 16
+   },
+   "ServicesOrder": [1, 5, 12, 13, 11, 26, 28, 30, 31],
+   "AutoDetection": {
+      "LanguageFirst": 11,
+      "LanguageSecond": 17,
+      "LanguageSpeechRecognition": 11
+   }
+}
