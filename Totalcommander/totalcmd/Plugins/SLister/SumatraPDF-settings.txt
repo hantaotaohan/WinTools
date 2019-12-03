@@ -1,20 +1,23 @@
-﻿# For documentation, see http://blog.kowalczyk.info/software/sumatrapdf/settings2.4.html
+﻿# For documentation, see http://www.sumatrapdfreader.org/settings3.2.html
 
-MainWindowBackground = #80fff200
+MainWindowBackground = #282c34
 EscToExit = false
 ReuseInstance = false
+UseSysColors = false
+RestoreSession = false
+
 FixedPageUI [
-	TextColor = #000000
-	BackgroundColor = #ffffff
-	SelectionColor = #f5fc0c
+	TextColor = #cecece
+	BackgroundColor = #282c34
+	SelectionColor = #e06c75
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
 ]
 EbookUI [
 	FontName = Georgia
 	FontSize = 12.5
-	TextColor = #5f4b32
-	BackgroundColor = #fbf0d9
+	TextColor = #cecece
+	BackgroundColor = #282c34
 	UseFixedPageUI = false
 ]
 ComicBookUI [
@@ -27,8 +30,12 @@ ChmUI [
 ]
 ExternalViewers [
 ]
+ShowMenubar = false
+ReloadModifiedDocuments = true
+FullPathInTitle = false
 ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
 ZoomIncrement = 0
+
 PrinterDefaults [
 	PrintScale = shrink
 	PrintAsImage = false
@@ -36,49 +43,75 @@ PrinterDefaults [
 ForwardSearch [
 	HighlightOffset = 0
 	HighlightWidth = 15
-	HighlightColor = #6581ff
+	HighlightColor = #61afef
 	HighlightPermanent = false
 ]
+CustomScreenDPI = 0
 
 RememberStatePerDocument = true
 UiLanguage = cn
-ShowToolbar = true
+ShowToolbar = false
 ShowFavorites = false
+AssociatedExtensions = 
 AssociateSilently = false
 CheckForUpdates = true
 RememberOpenedFiles = true
-UseSysColors = false
 EnableTeXEnhancements = false
-DefaultDisplayMode = automatic
+DefaultDisplayMode = single page
 DefaultZoom = fit page
-WindowState = 1
-WindowPos = 558 0 803 1040
+WindowState = 2
+WindowPos = 512 55 803 1040
 ShowToc = true
-SidebarDx = 0
-TocDy = 0
-ShowStartPage = true
+SidebarDx = 196
+TocDy = 841
+ShowStartPage = false
+UseTabs = false
 
 FileStates [
 	[
-		FilePath = C:\Users\saber\Desktop\1.pdf
+		FilePath = C:\Users\saber\Desktop\progit_v2.1.17.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
 		OpenCount = 3
 		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = fit page
+		DisplayMode = single page
+		ScrollPos = -1 405
+		PageNo = 341
+		Zoom = fit width
 		Rotation = 0
-		WindowState = 1
-		WindowPos = 558 0 803 1040
+		WindowState = 2
+		WindowPos = 512 55 803 1040
+		ShowToc = true
+		SidebarDx = 196
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\saber\Desktop\1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 8
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 137
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 512 55 803 1040
 		ShowToc = false
-		SidebarDx = 0
+		SidebarDx = 196
 		DisplayR2L = false
 		ReparseIdx = 0
 	]
 ]
-TimeOfLastUpdateCheck = 0 0
+SessionData [
+]
+TimeOfLastUpdateCheck = 30779757 -247512245
 OpenCountWeek = 465
+
+# Settings after this line have not been recognized by the current version

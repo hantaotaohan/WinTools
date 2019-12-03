@@ -1,0 +1,281 @@
+﻿// 无文档时,窗口的背景色,默认为黄色
+MainWindowBackground = #282c34
+
+// 是否允许用 Esc 键退出 SumatraPDF
+EscToExit = false
+
+// 是否用现有窗口打开文档
+ReuseInstance = false
+
+// 是否使用系统颜色显示 背景/文本色
+UseSysColors = false
+
+// 启动时是否恢复会话
+RestoreSession = true
+
+// 自定义 PDF, XPS, DjVu 和 PostScript 的 UI 界面
+FixedPageUI [
+
+	// 文本色,默认为黑    
+	TextColor = #cecece
+
+	// 背景色,默认为白  
+	BackgroundColor = #282c34
+
+	// 选定文本色
+	SelectionColor = #f5fc0c
+
+	// 文档在窗口中显示时的上,右,下,左边距
+	WindowMargin = 2 4 2 4
+
+	// 书籍模式双页显示时,水平和垂直间距
+	PageSpacing = 4 4
+
+	// 梯度渐变色,只支持三种颜色. 实验性, 也许对继续阅读有帮助.
+	// 通常建议为: #2828aa #28aa28 #aa2828
+    	GradientColors =
+
+]
+
+// 电子书(EPUB, Mobi, FictionBook)的 UI 界面定制选项.
+// 若 UseFixedPageUI 为 True 时使用默认配置.
+EbookUI [
+
+	// 字体名称.重新打开文档后生效
+	FontName = Georgia
+
+	// 字体大小.重新打开文档后生效
+	FontSize = 12.5
+
+	// 文本色
+	TextColor = #5f4b32
+
+	// 页面背景色
+	BackgroundColor = #fbf0d9
+
+	// 如果为 True, 电子书也将使用 PDF 文档的默认配置(开启打印和搜索,禁用自动 reflow)
+	UseFixedPageUI = false
+
+]
+
+// 漫画书和图片的 UI 界面定制选项
+ComicBookUI [
+
+	// 文档在窗口中显示时的上,右,下,左边距
+	WindowMargin = 0 0 0 0
+
+	// 书籍模式双页显示时,水平和垂直间距
+	PageSpacing = 4 4
+
+	// 如果为 True, 默认显示漫画书文件为漫画模式 (一次性从右向左显示2页)
+	CbxMangaMode = false
+
+]
+
+// CHM 文件定制选项.
+ChmUI [
+
+	//若为真,界面将使用默认的 PDF 文档风格
+	UseFixedPageUI = false
+
+]
+
+//各种文件类型的附加外部查看器列表（可以有多个条目格式）
+ExternalViewers [
+
+	[
+
+	// 命令行的调用外部查看器，可以用 %p 页号和 “%1” 文件名（在包含空格的路径中添加引号）
+    	CommandLine =
+
+	//菜单中显示外部查看器的名称
+	Name =打开对话框的过滤选项,要指定支持的文件类型,多个项目使用;分割,不要包含任何空格 (比如 *.pdf;*.xps)
+	Filter =
+
+	]
+
+]
+
+// 是否显示菜单栏,可以使用 F9 或 ALT
+ShowMenubar = false
+
+// 文件更改后是否自动重载 (目前还不支持工作在 ebook UI 模式) (introduced in version 2.5)
+ReloadModifiedDocuments = true
+
+// 标题栏是否显示完整路径 (introduced in version 3.0)
+FullPathInTitle = false
+
+// 缩放比例的间隔 介于 8.33 和 6400 之间
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+
+// 缩放比率的步长,如果为0,则使用默认
+ZoomIncrement = 0
+
+
+// 设置打印对话框的默认选项
+PrinterDefaults [
+
+	// 默认值是 scaling (shrink, fit, none)
+	PrintScale = shrink
+	PrintAsImage = false
+
+]
+
+// 自定义显示搜索结果 (used from LaTeX editors)
+ForwardSearch [
+
+	// 当设置为正数值时，将向前搜索高亮样式改为矩形.在页面的左边（从页边空白处注明）
+	HighlightOffset = 0
+
+	// 高亮选区的高度 (if HighlightOffset is > 0)
+	HighlightWidth = 15
+
+	// 高亮搜索的颜色
+	HighlightColor = #6581ff
+
+	// 为真时一直显示高亮
+	HighlightPermanent = false
+]
+
+//（如果这个值不是正数，将使用系统的UI设置  (introduced in version 2.5)
+CustomScreenDPI = 0
+
+// 是否为每个文档保存显示配置
+RememberStatePerDocument = true
+
+// 当前 UI 的语言, 使用 ISO 码
+UiLanguage = cn
+
+// 是否显示工具栏
+ShowToolbar = false
+
+// 是否侧栏显示收藏夹
+ShowFavorites = false
+
+// SumatraPDF 关联的文件格式扩展名 (e.g. “.pdf .xps .epub”)
+AssociatedExtensions = 
+
+// 是否自动应用文件扩展名关联
+AssociateSilently = false
+
+// 是否每天检测一次更新
+CheckForUpdates = true
+
+// 是否记住上次打开的文档
+RememberOpenedFiles = true
+
+// 是否增强的 LaTex 反向搜索
+EnableTeXEnhancements = false
+
+// 默认的页面布局.
+// 有效值: automatic, single page, facing, book view, 
+// continuous, continuous facing, continuous book view
+DefaultDisplayMode = single page
+
+// 默认缩放模式 使用比例(in %) 或下述值: fit page, fit width, fit content
+DefaultZoom = fit page
+
+// 默认窗口状态. 
+// 1 is normal
+// 2 is maximized
+// 3 is fullscreen
+// 4 is minimized
+WindowState = 2
+
+// 默认窗口位置(x,y)和尺寸(宽,高)
+WindowPos = 1000 35 803 1040
+
+// 对于支持解析的文档, 在侧栏显示目录标签(书签)
+ShowToc = true
+
+// 侧栏宽度 favorites/bookmarks
+SidebarDx = 196
+
+// 如果收藏夹和书签侧边栏部分可见，这就是书签的高度（目录表）部分
+TocDy = 0
+
+// 是否显示启动页面
+ShowStartPage = false
+
+// 是否使用标签模式
+UseTabs = false
+
+// 打开文件的信息
+FileStates [
+	[
+		FilePath = C:\Users\saber\Desktop\progit_v2.1.17.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 10
+		PageNo = 22
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 1000 35 803 1040
+		ShowToc = true
+		SidebarDx = 196
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\saber\Desktop\1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 1000 35 803 1040
+		ShowToc = false
+		SidebarDx = 196
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\saber\Desktop\1.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit width
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\saber\Desktop\progit_v2.1.17.pdf
+				DisplayMode = single page
+				PageNo = 22
+				Zoom = fit width
+				Rotation = 0
+				ScrollPos = -1 426
+				ShowToc = true
+			]
+		]
+		TabIndex = 2
+		WindowState = 2
+		WindowPos = 1000 35 803 1040
+		SidebarDx = 196
+	]
+]
+
+// 上次更新时间
+TimeOfLastUpdateCheck = 30779757 -247512245
+
+// 在历史记录中保存打开次数
+OpenCountWeek = 465
+
+# Settings after this line have not been recognized by the current version
