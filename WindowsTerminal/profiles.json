@@ -11,12 +11,19 @@
         "initialCols": 150,
         "initialRows": 20,
         "keybindings": [
-            {
+            	{
                 "command": "closeTab",
                 "keys": [
                     "ctrl+w"
                 ]
-            }
+            	},
+
+	{
+                "command": "openSettings",
+                "keys": [
+                    "ctrl+,"
+                ]
+            	}
         ],
         "requestedTheme": "system",
         "showTabsInTitlebar": false,
@@ -41,7 +48,7 @@
 	"padding" : "10, 10, 10, 10",
     	"snapOnInput" : true,
     	"startingDirectory" : "%USERPROFILE%/Desktop",
-    	"useAcrylic" : true,
+    	"useAcrylic" : false,
 	"acrylicOpacity" : 0.85
         },
         {
