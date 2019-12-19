@@ -48,6 +48,7 @@
 	"padding" : "10, 10, 10, 10",
     	"snapOnInput" : true,
     	"startingDirectory" : "%USERPROFILE%/Desktop",
+	"scrollbarState" :"hidden", 
     	"useAcrylic" : false,
 	"acrylicOpacity" : 0.85
         },
