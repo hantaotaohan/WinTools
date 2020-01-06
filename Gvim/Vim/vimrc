@@ -354,7 +354,7 @@ let g:table_mode_corner = '|'
 "=================================================================================================================================
 noremap <F9> :TagbarToggle<CR>                                           " F9打开关闭Tagbar
 let g:tagbar_autofocus = 1                                               " 焦点自动聚焦到Tagbar
-let g:tagbar_ctags_bin = "$VIMRUNTIME/plugged/ctags/ctags.exe"           " ctags目录位置
+let g:tagbar_ctags_bin = "$VIMRUNTIME/ctags/ctags.exe"           " ctags目录位置
 
 
 "=================================================================================================================================
@@ -364,7 +364,7 @@ let g:tagbar_ctags_bin = "$VIMRUNTIME/plugged/ctags/ctags.exe"           " ctags
 "---------------------------------------------------------------------------------------------------------------------------------
 let g:tagbar_type_markdown = {
     \ 'ctagstype': 'markdown',
-    \ 'ctagsbin' : '$VIMRUNTIME/plugged/ctags/markdown2ctags.py',
+    \ 'ctagsbin' : '$VIMRUNTIME/ctags/markdown2ctags.py',
     \ 'ctagsargs' : '-f - --sort=yes --sro=»',
     \ 'kinds' : [
         \ 's:sections',
