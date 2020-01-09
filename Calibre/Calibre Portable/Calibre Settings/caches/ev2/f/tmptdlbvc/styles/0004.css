@@ -1,0 +1,17 @@
+li {
+    list-style-type: none
+    }
+a {
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+@font-face {
+    src: url(ezPJKgrMLI5iYpd7vlZT7E|Zm9udHMvMDAyMDIudHRm|);
+    font-family: "SimHei";
+    panose-1: 2 1 6 9 6 1 1 1 1 1
+    }
+body {
+    font-family: "SimHei", monospace
+    }

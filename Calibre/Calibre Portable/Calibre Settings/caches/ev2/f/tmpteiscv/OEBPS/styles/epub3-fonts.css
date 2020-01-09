@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbm90b3NlcmlmLXJlZ3VsYXItbGF0aW4udHRm|)
+    }
+@font-face {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbm90b3NlcmlmLWl0YWxpYy1sYXRpbi50dGY=|)
+    }
+@font-face {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: bold;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbm90b3NlcmlmLWJvbGQtbGF0aW4udHRm|)
+    }
+@font-face {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: bold;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbm90b3NlcmlmLWJvbGRpdGFsaWMtbGF0aW4udHRm|)
+    }
+/* NOTE: use numeric font weights for M+ 1p since we're using weight variations */
+@font-face {
+    font-family: "M+ 1p";
+    font-style: normal;
+    font-weight: 400;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxcC1yZWd1bGFyLWxhdGluLnR0Zg==|)
+    }
+@font-face {
+    font-family: "M+ 1p";
+    font-style: normal;
+    font-weight: 200;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxcC1saWdodC1sYXRpbi50dGY=|)
+    }
+@font-face {
+    font-family: "M+ 1p";
+    font-style: normal;
+    font-weight: 700;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxcC1ib2xkLWxhdGluLnR0Zg==|)
+    }
+@font-face {
+    font-family: "M+ 1mn";
+    font-style: normal;
+    font-weight: normal;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxbW4tcmVndWxhci1hc2NpaS1jb251bXMudHRm|)
+    }
+@font-face {
+    font-family: "M+ 1mn";
+    font-style: italic;
+    font-weight: normal;
+    /* actually the M+ 1mn light font repurposed using FontForge to stand-in for Italic */
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxbW4taXRhbGljLWFzY2lpLnR0Zg==|)
+    }
+@font-face {
+    font-family: "M+ 1mn";
+    font-style: normal;
+    font-weight: bold;
+    /* actually the M+ 1mn medium font repurposed using FontForge to stand-in for Bold */
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxbW4tYm9sZC1hc2NpaS50dGY=|)
+    }
+@font-face {
+    font-family: "M+ 1mn";
+    font-style: italic;
+    font-weight: bold;
+    /* actually the M+ 1mn bold font repurposed using FontForge to stand-in for Bold Italic */
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvbXBsdXMxbW4tYm9sZGl0YWxpYy1hc2NpaS50dGY=|)
+    }
+@font-face {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvZm9udGF3ZXNvbWUtaWNvbnMudHRm|)
+    }
+@font-face {
+    font-family: "FontIcons";
+    font-style: normal;
+    font-weight: normal;
+    src: url(3JJgffKNGXxmBkDC5QJuPA|T0VCUFMvZm9udHMvYXNzb3J0ZWQtaWNvbnMudHRm|)
+    }
