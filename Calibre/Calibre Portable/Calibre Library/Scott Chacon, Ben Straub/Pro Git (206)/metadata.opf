@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">206</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">3f162d23-3d9d-4c31-919f-3bd33afaba56</dc:identifier>
+        <dc:title>Pro Git</dc:title>
+        <dc:creator opf:file-as="Scott Chacon, Ben Straub" opf:role="aut">Scott Chacon, Ben Straub</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.1.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2019-01-23T00:00:00+00:00</dc:date>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;Scott Chacon, Ben Straub&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="10" name="calibre:rating"/>
+        <meta content="2019-11-18T00:29:50+00:00" name="calibre:timestamp"/>
+        <meta content="Pro Git" name="calibre:title_sort"/>
+        <meta name="calibre:user_metadata:#formats" content="{&quot;label&quot;: &quot;formats&quot;, &quot;is_editable&quot;: true, &quot;display&quot;: {&quot;description&quot;: &quot;&quot;, &quot;composite_template&quot;: &quot;{:'re(approximate_formats(), ',', ', ')'}&quot;, &quot;contains_html&quot;: false, &quot;use_decorations&quot;: 0, &quot;composite_sort&quot;: &quot;text&quot;, &quot;make_category&quot;: false}, &quot;is_custom&quot;: true, &quot;category_sort&quot;: &quot;value&quot;, &quot;link_column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 22, &quot;search_terms&quot;: [&quot;#formats&quot;], &quot;name&quot;: &quot;格式&quot;, &quot;is_multiple&quot;: null, &quot;is_multiple2&quot;: {}, &quot;column&quot;: &quot;value&quot;, &quot;is_csp&quot;: false, &quot;is_category&quot;: false, &quot;#value#&quot;: &quot;EPUB, MOBI&quot;, &quot;kind&quot;: &quot;field&quot;, &quot;colnum&quot;: 1, &quot;datatype&quot;: &quot;composite&quot;, &quot;table&quot;: &quot;custom_column_1&quot;, &quot;#extra#&quot;: null}"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="封面" type="cover"/>
+    </guide>
+</package>

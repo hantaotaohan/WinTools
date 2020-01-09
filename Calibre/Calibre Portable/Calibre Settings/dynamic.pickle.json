@@ -1,0 +1,31 @@
+{
+  "add a plugin dialog": "C:\\Users\\hanta\\Desktop", 
+  "add books dialog dir": "G:\\documents", 
+  "add fonts to calibre": "C:\\Users\\hanta\\Desktop", 
+  "catalogs_to_be_synced": {
+    "__class__": "set", 
+    "__value__": []
+  }, 
+  "recursive book import root dir dialog": "G:\\documents", 
+  "sort_history": [
+    [
+      "title", 
+      true
+    ], 
+    [
+      "authors", 
+      true
+    ], 
+    [
+      "title", 
+      false
+    ], 
+    [
+      "timestamp", 
+      false
+    ]
+  ], 
+  "systray_msg": true, 
+  "welcome_wizard_device": "kindle", 
+  "welcome_wizard_was_run": true
+}

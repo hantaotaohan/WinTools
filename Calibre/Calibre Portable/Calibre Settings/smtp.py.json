@@ -1,0 +1,18 @@
+{
+  "accounts": {
+    "hantaotaohan@kindle.cn": [
+      "AZW, MOBI, TPZ, PRC, AZW1", 
+      true, 
+      true
+    ]
+  }, 
+  "aliases": {}, 
+  "encryption": "TLS", 
+  "from_": "hantaotaohan@hotmail.com", 
+  "relay_host": "smtp.live.com", 
+  "relay_password": "34363835373931333532304874", 
+  "relay_port": 587, 
+  "relay_username": "hantaotaohan@hotmail.com", 
+  "subjects": {}, 
+  "tags": {}
+}
