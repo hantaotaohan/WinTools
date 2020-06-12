@@ -1,15 +1,12 @@
-
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-
-    "globals": {
         "alwaysShowTabs": false,
         "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "initialCols": 150,
-        "initialRows": 20,
+        "initialCols": 200,
+        "initialRows": 30,
         "keybindings": [
             	{
                 "command": "closeTab",
@@ -28,7 +25,7 @@
         "requestedTheme": "system",
         "showTabsInTitlebar": false,
         "showTerminalTitleInTitlebar": false
-    },
+ ,
     "profiles":
     [
         {
@@ -40,20 +37,20 @@
 	"colorScheme" : "One Half Dark",
 	"cursorColor" : "#DCDFE4",
     	"cursorShape" : "filledBox",
-	"closeOnExit" : false,
+	"closeOnExit" : true,
     	"fontFace" : "Saber",
     	"fontSize" : 10,
-	"fontWeight": "bold",
+	"fontWeight": "Bold",
 	"historySize" : 9001,
-	"padding" : "10, 10, 10, 10",
+	"padding" : "2, 2, 2, 2",
     	"snapOnInput" : true,
-    	"startingDirectory" : "%USERPROFILE%/Desktop",
+    	"startingDirectory" : "%USERPROFILE%/desktop",
 	"scrollbarState" :"hidden", 
-    	"useAcrylic" : false,
-	"acrylicOpacity" : 0.85
+    	"useAcrylic" : true,
+	"acrylicOpacity" : 0.9
         },
         {
-            // Make changes here to the cmd.exe profile
+// Make changes here to the cmd.exe profile
             "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
             "name": "cmd",
             "commandline": "cmd.exe",
@@ -86,7 +83,8 @@
 	"historySize" : 9001,
 	"padding" : "0, 0, 0, 0",
     	"snapOnInput" : true,
-    	"startingDirectory" : "%USERPROFILE%",
+    	// "startingDirectory" : "%USERPROFILE%",
+	"startingDirectory" : ".",
     	"useAcrylic" : false,
 	"acrylicOpacity" : 0.75
         },
@@ -98,14 +96,14 @@
         }
     ],
 
-    // Add custom color schemes to this array
+// Add custom color schemes to this array
     "schemes": [
 	{
    	"name" : "One Half Dark",
    	"background" : "#282C34",
-    	"black" : "#282C34",
+    	"Black" : "#282C34",
     	"blue" : "#61AFEF",
-	"brightBlack" : "#ABB2BF",
+    	"brightBlack" : "#ABB2BF",
     	"brightBlue" : "#61AFEF",
     	"brightCyan" : "#56B6C2",
     	"brightGreen" : "#98C379",
@@ -123,7 +121,7 @@
 }
 	],
 
-    // Add any keybinding overrides to this array.
-    // To unbind a default keybinding, set the command to "unbound"
+// Add any keybinding overrides to this array.
+// To unbind a default keybinding, set the command to "unbound"
     "keybindings": []
 }
