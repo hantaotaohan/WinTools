@@ -40,7 +40,7 @@
 	"closeOnExit" : true,
     	"fontFace" : "Saber",
     	"fontSize" : 10,
-	"fontWeight": "Bold",
+	"fontWeight": "bold",
 	"historySize" : 9001,
 	"padding" : "2, 2, 2, 2",
     	"snapOnInput" : true,
@@ -61,7 +61,7 @@
 	"closeOnExit" : true,
     	"fontFace" : "Source Code Pro Black",
     	"fontSize" : 14,
-	"fontWeight": "0",
+	"fontWeight": "bold",
 	"historySize" : 9001,
 	"padding" : "0, 0, 0, 0",
     	"snapOnInput" : true,
@@ -93,6 +93,18 @@
             "hidden": false,
             "name": "Azure Cloud Shell",
             "source": "Windows.Terminal.Azure"
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+            "hidden": false,
+            "name": "Ubuntu-20.04",
+            "source": "Windows.Terminal.Wsl"
         }
     ],
 
