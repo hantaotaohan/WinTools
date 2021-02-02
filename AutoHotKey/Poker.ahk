@@ -2,6 +2,8 @@
 ;                       CapsLock Initializer                         ;|
 ;---------------------------------------------------------------------o
 SetCapsLockState, AlwaysOff                                          ;| 
+#HotkeyInterval 2000                                                         ;|
+#MaxHotkeysPerInterval 200                                           ;|
 #If GetKeyState("CapsLock", "p")                                     ;|
 ;---------------------------------------------------------------------o
 
