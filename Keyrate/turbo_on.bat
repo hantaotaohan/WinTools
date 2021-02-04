@@ -1,2 +1,2 @@
 cd /d %~dp0
-keyrate.exe 130 15s
+keyrate.exe 200 15
