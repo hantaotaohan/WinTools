@@ -18,7 +18,7 @@
         "experimental.rendering.software":true,
 
         "keybindings": [
-        // { "command": "closeTab", "keys": ["ctrl+w" ]},
+            	{ "command": "closeTab", "keys": ["ctrl+w" ]},
 
 	{ "command": "openSettings",  "keys": ["ctrl+," ]},
 
@@ -45,7 +45,7 @@
     {
         "defaults":
         {
-        "colorScheme" : "One Half Dark",
+            	"colorScheme" : "One Half Dark",
 	"cursorColor" : "#E06C75",
 	"cursorForeground": "#E06C75",
 	"cursorBackground":"#E06C75",
@@ -60,7 +60,7 @@
 	"scrollbarState" :"hidden", 
     	"useAcrylic" : false,
 	"acrylicOpacity" : 0.75,
-        "antialiasingMode":"cleartype"
+                    "antialiasingMode":"grayscale"
         },
         "list":
         [
