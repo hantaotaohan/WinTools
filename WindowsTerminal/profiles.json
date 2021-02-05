@@ -52,7 +52,7 @@
     	"cursorShape" : "filledBox",
 	"closeOnExit" : true,
     	"fontFace" : "Inziu Iosevka SC",
-    	"fontSize" : 10,
+    	"fontSize" : 9,
 	"fontWeight": "bold",
 	"historySize" : 9001,
 	"padding" : "10, 10, 10, 10",
